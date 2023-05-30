@@ -1,11 +1,11 @@
 import * as React from "react"
+import Layout from '../components/layout'
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Hello World by Iram!</h1>
-      <p>I'm making a custom Gatsby site with version control.</p>
-    </main>
+    <Layout pageTitle="Home Page">
+      <p>I'm making this by following the Gatsby tutorial</p>
+    </Layout>
   )
 }
 
